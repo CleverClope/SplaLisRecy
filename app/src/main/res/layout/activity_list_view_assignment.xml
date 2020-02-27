@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_orange_light"
+    tools:context=".ListViewAssignment">
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="362dp"
+        android:layout_height="629dp" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="147dp"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:text="Button"
+        android:textColor="@android:color/holo_blue_bright"
+        tools:ignore="InvalidId" />
+</LinearLayout>
